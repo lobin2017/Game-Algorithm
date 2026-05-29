@@ -28,5 +28,6 @@ public class ManualGravity : MonoBehaviour
         }
 
         transform.position = pos;
+        
     }
 }
