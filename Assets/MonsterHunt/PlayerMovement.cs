@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
         // 키보드 장치가 연결되어 있는지 확인 후 입력값 계산 (현대적인 is not null 사용)
         // Keyboard.current는 현재 연결된 키보드 장치를 가져오는 프로퍼티입니다.
         if (Keyboard.current is not null)
-        {
+        {   
             float h = 0;
             float v = 0;
 
